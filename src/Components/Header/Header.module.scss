@@ -1,0 +1,26 @@
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .weather{
+        width: 100px;
+        height: 30px;
+        position: absolute;
+        right: 30px;
+        background-color: aliceblue;
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        gap: 3px;
+
+        &>div{
+            display: flex;
+            align-items: center;
+        }
+    }
+}

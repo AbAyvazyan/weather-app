@@ -1,0 +1,19 @@
+
+.todaysWeather{
+    width: 30%;
+    height: 30px;
+
+    .dayPartWeather{
+        width: 100%;
+        border-bottom: 1px solid rgb(206, 206, 206);
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        box-sizing: border-box;
+        gap: 5px;
+        &:last-child{
+            border-bottom: none;
+        }
+    }
+}
